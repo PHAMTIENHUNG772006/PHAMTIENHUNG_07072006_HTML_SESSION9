@@ -67,7 +67,8 @@ h3{
 .tab2{
     color: white;
     width: 110px;
-    transform: translateY(5px);
+    position: relative;
+    top: 5px;
 }
 .content {
     background-color: rgb(250, 245, 245);
@@ -112,4 +113,10 @@ p{
     padding-top: 10px;
     justify-content: center;
     align-items: center;
+}
+.tab:hover{
+    border-bottom: 5px solid white;
+}
+.tab2:hover{
+    border-bottom: 5px solid white;
 }
