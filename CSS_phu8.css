@@ -47,7 +47,8 @@ body{
     gap: 10px;
 }
 .footer{
-    height: 56px;
+    height: 90px;
+    padding: 24px;
     background-color: #333333;
 }
 .link{
@@ -102,8 +103,7 @@ button {
     background-color: #ccc;
     border-radius: 10px;
 }
-  
-.project p {
+.project{
     margin-top: 10px;
     font-size: 14px;
     color: #333;
