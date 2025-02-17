@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+}
+.container{
+    border: 1px solid black;
+    background-color: #F1F1F1;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    color: white;
+    background-color: #3498DB;
+    width: 24%;
+    height: 50px;
+    border: 1px solid ;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box5{
+    display: flex;
+    width: 48%;
+}

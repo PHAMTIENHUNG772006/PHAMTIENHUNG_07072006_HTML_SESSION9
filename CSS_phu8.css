@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    padding: 24px;
+    height: 90px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+}
+.main{
+    background-color: #F3F4F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.body1{
+    background-color: rgb(208, 205, 205);
+    width: 100%;
+    text-align: center;
+}
+.body2{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+.body3{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer{
+    height: 56px;
+    background-color: #333333;
+}
+.link{
+    padding: 5px;
+    gap: 5px;
+    display: flex;
+    list-style: none;
+}
+.section{
+    border-radius: 5px;
+    width: 200px;
+    border: 1px solid #dadada;
+}
+.text{
+    text-align: center;
+    margin: 24px;
+}
+button {
+    background-color: #333333;
+    padding: 8px;
+    color: white;
+   margin: 24px;
+}
+.box{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin: 24px;
+    border: 1px solid white;
+    background-color:gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+.section2 {
+    text-align: center;
+}
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+     text-align: center;
+}
+.item {
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 10px;
+}
+  
+.project p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans",sans-serif;
+    margin: 24px;
+}
+.container{
+    display: flex;
+    gap: 10px; 
+    text-align: center;
+    justify-content: center;
+    
+}
+.container_child{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.big-item{ 
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    width: 50%;
+    background-color:#2C3E50 ;
+}
+.item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    color: white;
+    background-color:#2C3E50 ;
+    width: 40%;
+    height: 70px;
+}
